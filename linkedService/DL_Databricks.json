@@ -1,0 +1,14 @@
+{
+	"name": "DL_Databricks",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405613398692855.15.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/e233d457-8fbf-47c5-9236-a0c1f1ee9333/resourceGroups/rg-databricks-course/providers/Microsoft.Databricks/workspaces/databricks-course-ws",
+			"existingClusterId": "0828-001826-r6g3b6hu"
+		}
+	}
+}
